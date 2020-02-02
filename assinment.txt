@@ -1,0 +1,29 @@
+0.6
+0.805
+0.52
+0.15
+
+
+
+
+def answer_one():
+    df = pd.read_csv('fraud_data.csv')
+    
+    return (len(df[df['Class']==1])/len(df.index))
+
+answer_one()
+
+
+
+def answer_two():
+    from sklearn.dummy import DummyClassifier
+    from sklearn.metrics import recall_score
+    
+    # Your code here
+    clf = DummyClassifier(strategy='most_frequent')
+    clf.fit(X_train,y_train)
+    y_test_pred = clf.predict(X_test)
+    
+    return (clf.score(X_test,y_test),recall_score(y_test, y_test_pred))
+
+answer_two()
