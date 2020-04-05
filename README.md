@@ -45,10 +45,16 @@
 
 Clone/Download- git clone https://github.com/rujual/streamlit_walmart.git
 
-Install Streamlit Python library- $ pip install streamlit
+Install Streamlit Python library- 
+''' console
+$ pip install streamlit
+'''
 
 Open terminal and Go into downloaded directory-
 
-Run - $ streamlit run mall_customer.py
+Run - 
+''' console
+$ streamlit run mall_customer.py
+'''  
 
 ### Dig Away!
