@@ -43,7 +43,10 @@
 
 ### Steps to Run
 
-Clone/Download- git clone https://github.com/rujual/streamlit_walmart.git
+Clone/Download- 
+```bash
+$ git clone https://github.com/rujual/streamlit_walmart.git
+```
 
 Install Streamlit Python library- 
 ```bash  
